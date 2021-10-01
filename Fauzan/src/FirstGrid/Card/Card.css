@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 5%;
+    border-radius: 13px;
+    background-color: white;
+}
+.cardText{
+    position: relative;
+    z-index: 700;
+    width: 200%;
+}
+.cardimg{
+ width: 180%;
+ height: 80%;
+}
+.cardImg{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    top: 25%;
+    left: -22%;
+}
+.courseLinks{
+    font-size: 11px;
+
+}
+.courseLinks a {
+    text-decoration: none;
+    color: #08BD80;
+    font-size: 11px;
+}
+.CardHeading{
+    color: grey;
+    font-size: 20px;
+}
+.CardHeading strong{
+    color: black;
+}

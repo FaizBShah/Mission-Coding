@@ -1,0 +1,9 @@
+.FirstGrid{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    margin-left: 16%;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 4%;
+    margin-top: 10%;
+}
