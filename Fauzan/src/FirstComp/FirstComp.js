@@ -8,7 +8,7 @@ export default function FirstComp() {
             <img alt="hi" src={banner} className="banner" />
         </div>
         <div data-aos="fade-right" className="FirstText">
-            <p className="FirstTextText">India’s largest<br/>learning platform
+            <p className="FirstTextText">India’s smallest<br/>learning platform
             </p>
         </div>
         </>
