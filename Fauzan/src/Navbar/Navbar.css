@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: -1%;
+}
+.UnacademyBtn{
+    background-color: #08BD80;
+    padding: .5rem 1.5rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 6px;
+}
