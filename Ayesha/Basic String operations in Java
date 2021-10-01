@@ -1,0 +1,19 @@
+package com.ayesha;
+
+public class StringDemo {
+public static void main(String[] args) {
+	String s1="Hello";
+	String s2="HelloWorld";
+	int i=100;
+	System.out.println(s1.length());
+	System.out.println(String.valueOf(i));
+	System.out.println(s1.replace('H','h'));
+	System.out.println(s1.equals(s2));
+	System.out.println(s1.substring(3));//getting part of a string starts from that index and from there gives the remaining string
+	System.out.println(s1.compareTo(s2));
+	System.out.println(s1.toUpperCase());
+	System.out.println(s1.toLowerCase());
+	s1=s1.concat(" Learning");
+	System.out.println("The concatenated string is: " +s1);
+}
+}
