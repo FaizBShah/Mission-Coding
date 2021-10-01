@@ -1,0 +1,23 @@
+.secondcard{
+display: flex;
+flex-direction: column;
+/* box-shadow: 0 0 10px #ccc; */
+}
+.secondcardImg{
+    width: 100%;
+}
+.secondcardText{
+    padding: 2%;
+    margin-top: -10%;
+}
+.secondCardHeading{
+    font-size:22px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(48, 48, 48);
+}
+.secondcourseLinks{
+    font-size: 14px;
+    margin-top: -5%;
+    text-align: center;
+}
