@@ -1,0 +1,37 @@
+#include<stdio.h>
+main()
+   {
+   int i,j,n,s=1;
+   printf("enter the odd no. of rows");
+   scanf("%d",&n);
+   
+   for(i=1  ;i<=n    ; i++   )
+    {
+    
+	
+	
+	 if( i==1 || i==n )
+	 
+	 {
+	 for(j=1;j<=n;j++)
+	 
+	 	printf("* ");}
+	 	
+	  else
+	 {
+	 
+	  for(j=1;j<=(n-s)/2;j++)
+	 
+	 	printf("* ");
+	 	for(j=1;j<=s;j++)
+	 
+	 	printf("  ");
+	  	
+	  	for(j=1;j<=(n-s)/2;j++)
+	 
+	 	printf("* ");
+	 	s= i<=n/2? s+2 : s-2;
+	  }
+		printf("\n");
+	}
+}
