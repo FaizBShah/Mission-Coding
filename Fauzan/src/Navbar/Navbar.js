@@ -5,7 +5,7 @@ export default function Navbar() {
         <div>
            <nav>
                <img src="https://static.uacdn.net/production/_next/static/images/Mobile-Logo.svg?q=75&w=48" alt="?"/>
-               <div> <button className="UnacademyBtn">Login</button></div>
+               <div> <button className="UnacademyBtn">Signin</button></div>
             </nav> 
         </div>
     )
